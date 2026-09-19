@@ -1,0 +1,25 @@
+{
+  "name": "wiza",
+  "version": "1.0.0",
+  "description": "Wiza — Elite Standalone Generative Cinema Workstation powered by Wan 2.1 and SkyReels",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "generative-cinema",
+    "wan-2.1",
+    "skyreels",
+    "character-consistency",
+    "video-diffusion",
+    "creative-workstation"
+  ],
+  "author": "Veloce / Aetheris Creative",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
